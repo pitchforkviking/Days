@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2">
+  <ion-list id="home-list1">
+    <ion-item-sliding>
+      <ion-item color="balanced" id="home-list-item4">
+        Vacation
+        <ion-note item-right></ion-note>
+        <ion-icon name="arrow-dropup" item-right></ion-icon>
+      </ion-item>
+      <ion-item-options side="left">
+        <button ion-button color="assertive">
+          Delete
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item color="assertive" id="home-list-item5">
+        Party
+        <ion-note item-right></ion-note>
+        <ion-icon name="arrow-dropdown" item-right></ion-icon>
+      </ion-item>
+      <ion-item-options side="left">
+        <button ion-button color="assertive">
+          Delete
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item color="positive" id="home-list-item7">
+        Happy Day
+        <ion-note item-right></ion-note>
+        <ion-icon name="arrow-dropright" item-right></ion-icon>
+      </ion-item>
+      <ion-item-options side="left">
+        <button ion-button color="assertive">
+          Delete
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+  <button id="home-button2" ion-button color="positive" block icon-right on-click="goToAdd()">
+    Add Event
+    <ion-icon name="add"></ion-icon>
+  </button>
+</ion-content>

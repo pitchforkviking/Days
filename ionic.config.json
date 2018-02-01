@@ -1,0 +1,8 @@
+{
+  "name": "Days",
+  "app_id": "2ed38097",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
